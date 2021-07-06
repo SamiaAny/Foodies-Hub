@@ -88,12 +88,12 @@ section{
 .rectangular{
     border-radius: 17px;
 }
-.contact-section{
+.feedback-section{
     margin-left: 20%;
     margin-right: 20%;
     padding: 10px 100px;
 }
-.contact-section h2{
+.feedback-section h2{
     text-align: center;
 }
 input[type="text"],input[type=email],textarea{
@@ -101,9 +101,19 @@ input[type="text"],input[type=email],textarea{
     padding:5px;
     margin-top: 5px;
     margin-bottom: 15px;
+    border-radius: 5px;
 }
 input{
     display: block;
+}
+#send-button{
+    padding: 15px 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgb(39, 37, 37);
+    border-style:none;
+    border-radius:3px;
 }
 footer{
     background-color: black;
