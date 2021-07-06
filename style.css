@@ -1,0 +1,114 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 40px;
+    color: rgb(122, 113, 113);
+}
+h2{
+    font-size: 30px;
+    color:dimgray;
+}
+.orange-text{
+    color: orange;
+}
+p{
+    color: dimgray;
+    margin-bottom: 40px;
+}
+section{
+    margin-bottom: 150px;
+}
+.intro-section{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.button-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-image: linear-gradient(to right,darkorange,rgb(236, 20, 182));
+    padding: 10px 30px;
+    border-radius:30px;
+    box-shadow: 2px 2px 20px salmon;
+}
+.flexible-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.half-width{
+    width: 40%;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin:0 30px 0px;
+}
+.half-width img{
+    width: 100%;
+    padding-top: 50px;
+    
+}
+.aboutme-section{
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat:none;
+    background-size: 100%;
+}
+#resize{
+    height: 500px;
+    width: 300px;
+}
+.myrecipies-section .element-align{
+    text-align: center;
+}
+
+.recipies{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.recipies-part{
+    width: 33.33%;
+    padding: 20px;
+    margin: 30px;
+    border-radius:17px;
+    box-shadow: 5px 5px 30px lightgrey;
+}
+.recipies-part img{
+    width: 100%;
+    height:200px;
+}
+.rectangular{
+    border-radius: 17px;
+}
+.contact-section{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px 100px;
+}
+.contact-section h2{
+    text-align: center;
+}
+input[type="text"],input[type=email],textarea{
+    width:100%;
+    padding:5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+input{
+    display: block;
+}
+footer{
+    background-color: black;
+    text-align:center;
+    padding:20px 0px 80px 0px;
+}
+footer h2{
+    font-size: 30px;
+}
+footer p{
+    margin: 0;
+    color: lightgrey;
+}
